@@ -4,7 +4,7 @@ description: >
   A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
 
 # baseurl: "/saeid" # the subpath of your site, e.g. /blog/
-url: "https://knhash.github.io" # the base hostname & protocol for your site
+url: "https://saeidakbari.ir" # the base hostname & protocol for your site
 img: "/saeid.jpg"
 
 author:
@@ -23,3 +23,11 @@ styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.lig
 # Build settings
 highlighter: null
 markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-multiple-languages-plugin
+
+# i18n
+languages: ["en", "fa",]
+exclude_from_localizations: ["assets"]

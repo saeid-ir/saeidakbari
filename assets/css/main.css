@@ -9,6 +9,10 @@ body {
   background-color: #FFF;
 }
 
+body:lang(fa) {
+  font-family: 'Vazir', sans-serif;
+}
+
 a {
   color: #57A;
   font-weight: bold;
@@ -65,7 +69,7 @@ strong {
 
 .wrapper {
   max-width: 90%;
-  margin: 60px auto;
+  margin: 30px auto;
 }
 
 /* =Header */
@@ -74,8 +78,16 @@ strong {
   overflow: hidden;
 }
 
+.header:lang(fa) {
+  text-align: right;
+}
+
 .navigation {
   float: left;
+}
+
+.navigation:lang(fa) {
+  float: right;
 }
 
 .logo {
@@ -83,6 +95,11 @@ strong {
   font-weight: 700;
   color: #16a085;
   display: block;
+}
+
+.logo:lang(fa) {
+  font-size: 200%;
+  font-weight: 500;
 }
 
 .menu {
@@ -114,6 +131,10 @@ strong {
   list-style-type: none;
 }
 
+.social-links:lang(fa) {
+  float: left;
+}
+
 .social-links__entry {
   display: inline-block;
   margin-left: 10px;
@@ -129,6 +150,10 @@ strong {
 .page-title__text {
   font-weight: 700;
   font-size: 150%;
+}
+
+.page-title__text:lang(fa) {
+  font-weight: 400;
 }
 
 .page-title__subtitle {
@@ -266,6 +291,10 @@ strong {
     margin: 10px auto;
   }
 
+  .social-links:lang(fa) {
+    float: right;
+  }
+
   .page-title {
     margin-top: 10px;
     margin-bottom: 30px;
@@ -274,6 +303,8 @@ strong {
   .page-title__text {
     font-size: 150%;
   }
+
+
 
   .page-title__subtitle {
     font-size: 65%;
